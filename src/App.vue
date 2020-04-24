@@ -11,14 +11,7 @@
           width="40"
         />
 
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          :src="logotitle"
-          width="100"
-        />
+        <v-text>アバター</v-text>
       </div>
 
       <v-spacer></v-spacer>
