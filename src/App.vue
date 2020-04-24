@@ -23,7 +23,7 @@
 
       <v-spacer></v-spacer>
 
-      <v-btn href="https://github.com/vuetifyjs/vuetify/releases/latest" target="_blank" text>
+      <v-btn href="https://github.com/ZTF666/Avatar-Fetcher" target="_blank" text>
         <span class="mr-2">Github repo</span>
         <v-icon>mdi-github</v-icon>
       </v-btn>
