@@ -80,7 +80,7 @@ pnpm run build
 ## Support
 
 ```
-Any help improving this spa , is welcomed :heart:
+Any help improving this spa , is welcomed ❤️
 ```
 
 ## Contact
