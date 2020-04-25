@@ -46,7 +46,7 @@ The fix for instagram is easy !
 On the IG app , open the profile you want ,
 Click on the three dots on the top right of the screen
 Then click on ' Copy Profile URL '
-Past it in the search field and voila!
+Paste it in the search field and voila!
 
 The id looks something like : USERNAME?igshid=XXXXXXXXXXXXX
 ```
