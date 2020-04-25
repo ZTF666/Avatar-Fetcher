@@ -70,3 +70,15 @@ pnpm run serve
 ```
 pnpm run build
 ```
+
+## Support
+
+```
+
+```
+
+## License
+
+## License
+
+-**Avatar | アバター** released under the [MIT](LICENSE) License.<br>
