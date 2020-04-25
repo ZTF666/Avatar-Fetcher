@@ -26,7 +26,26 @@ You can always refer to the original project here :
 In case of a not valid username on any platform , the image displayed is :
 ```
 
-| Error![ Screenshot ](/src/assets/error.png) |------------------------------------------- |
+![ Screenshot ](/src/assets/error.png)
+
+## False negative for IG ids :
+
+```
+I noticed that sometimes , the username is correct but still returns no picture .
+The fix for instagram is easy !
+On the app , open the profile you want ,
+Click on the three dots on the top right of the screen
+Then click on ' Copy Profile URL '
+Past it in the search field and voila!
+
+The id looks something like : USERNAME?igshid=XXXXXXXXXXXXX
+```
+
+## False negative for Facebook :
+
+```
+this one is kind of a hit or miss .
+```
 
 -**Project setup**
 
