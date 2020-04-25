@@ -16,9 +16,17 @@ You can always refer to the original project here :
 
 ## Different platforms :
 
-| Facebook![ Screenshot ](/src/assets/fb.png) | Instagram![ Screenshot ](/src/assets/ig.png) | Twitter![ Screenshot ](/src/assets/tw.png) EndFragment |
-| ------------------------------------------- | -------------------------------------------- | ------------------------------------------------------ |
+| Facebook![ Screenshot ](/src/assets/fb.png) | Instagram![ Screenshot ](/src/assets/ig.png) | Twitter![ Screenshot ](/src/assets/tw.png) | Error![ Screenshot ](/src/assets/error.png) |
+| ------------------------------------------- | -------------------------------------------- | ------------------------------------------ | ------------------------------------------- |
 
+
+## User not found :
+
+```
+In case of a not valid username on any platform , the image displayed is :
+```
+
+![Screenshot](/src/assets/error.png)
 
 -**Project setup**
 
