@@ -47,8 +47,6 @@ export default {
 
   data: () => ({
     logo: require("../src/assets/me.png"),
-    logotitle: require("../src/assets/ztf.png"),
-    //
   }),
 };
 </script>

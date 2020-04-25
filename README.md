@@ -10,6 +10,8 @@ You can always refer to the original project here :
 
 [Unavatar](https://github.com/Kikobeats/unavatar)
 
+## How does it work :
+
 -**Project setup**
 
 ```
