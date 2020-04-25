@@ -12,7 +12,9 @@ You can always refer to the original project here :
 
 ## How does it work :
 
-![Screenshot](/src/assets/avatar.gif)
+<div align="center">
+<img src="/src/assets/avatar.gif" >
+</div>
 
 ## Different platforms :
 
@@ -28,7 +30,6 @@ In case of a not valid username on any platform , the image displayed is :
 
 <div align="center">
 <img src="/src/assets/error.png" >
-
 </div>
 
 ```
