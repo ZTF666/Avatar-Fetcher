@@ -1,10 +1,6 @@
 # Avatar | アバター
 
-Is a webapp that uses the multiple end points provided by
-
-[Kiko Beats](https://github.com/Kikobeats)
-
-to fetch and display a given user's profile picture .
+Is a webapp that uses the multiple end points provided by [Kiko Beats](https://github.com/Kikobeats) to fetch and display a given user's profile picture .
 
 This was made just to put an UI on the already existing project.
 Since i've used to links quit a lot lately , i wanted to make it more accessible
