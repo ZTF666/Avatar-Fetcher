@@ -53,6 +53,8 @@ The id looks something like : USERNAME?igshid=XXXXXXXXXXXXX
 this one is kind of a hit or miss .
 ```
 
+## Install
+
 -**Project setup**
 
 ```
