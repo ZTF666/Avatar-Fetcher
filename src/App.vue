@@ -16,7 +16,11 @@
 
       <v-spacer></v-spacer>
 
-      <v-btn href="https://github.com/ZTF666/Avatar-Fetcher" target="_blank" text>
+      <v-btn
+        href="https://github.com/ZTF666/Avatar-Fetcher"
+        target="_blank"
+        text
+      >
         <span class="mr-2">Github repo</span>
         <v-icon>mdi-github</v-icon>
       </v-btn>
@@ -38,13 +42,13 @@ export default {
   name: "App",
 
   components: {
-    ztf
+    ztf,
   },
 
   data: () => ({
     logo: require("../src/assets/me.png"),
-    logotitle: require("../src/assets/ztf.png")
+    logotitle: require("../src/assets/ztf.png"),
     //
-  })
+  }),
 };
 </script>

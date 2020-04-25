@@ -1,5 +1,5 @@
 <template>
-  <v-container class="mt-10">
+  <v-container>
     <!-- snackbar -->
     <v-snackbar
       v-model="snackbar"
@@ -23,7 +23,7 @@
         <v-layout row wrap class="d-flex justify-center">
           <v-flex xs12 sm6 md3>
             <v-text-field
-              label="Outline"
+              label="User ID"
               outline
               v-model="username"
             ></v-text-field>
@@ -53,6 +53,15 @@
         </v-card>
       </v-flex>
     </v-layout>
+    <v-layout class="d-flex justify-center mt-10">
+      <div class="text-xs-center">
+        <v-btn round color="dark" dark>
+          <a :href="myurl" target="_">
+            <v-icon>mdi-content-save</v-icon>
+          </a>
+        </v-btn>
+      </div>
+    </v-layout>
   </v-container>
 </template>
 
@@ -66,7 +75,7 @@ export default {
       downloadlink: "",
       platform: "",
       username: null,
-      myurl: "",
+      myurl: null,
       status: "",
       row: null,
       alert: false,
@@ -93,6 +102,7 @@ export default {
             this.avatar = "https://unavatar.now.sh/instagram/" + this.username;
             this.downloadlink =
               "https://unavatar.now.sh/instagram/" + this.username;
+            this.myurl = "https://unavatar.now.sh/instagram/" + this.username;
             this.username = null;
           }
         } else if (this.row == "fb") {
@@ -106,6 +116,7 @@ export default {
             this.avatar = "https://unavatar.now.sh/facebook/" + this.username;
             this.downloadlink =
               "https://unavatar.now.sh/facebook/" + this.username;
+            this.myurl = "https://unavatar.now.sh/facebook/" + this.username;
             this.username = null;
           }
         } else {
@@ -119,6 +130,7 @@ export default {
             this.avatar = "https://unavatar.now.sh/twitter/" + this.username;
             this.downloadlink =
               "https://unavatar.now.sh/twitter/" + this.username;
+            this.myurl = "https://unavatar.now.sh/twitter/" + this.username;
             this.username = null;
           }
         }
