@@ -16,8 +16,8 @@ You can always refer to the original project here :
 
 ## Different platforms :
 
-| StartFragment![ Screenshot ](/src/assets/fb.png) EndFragment | StartFragment![ Screenshot ](/src/assets/ig.png) EndFragment | StartFragment![ Screenshot ](/src/assets/tw.png) EndFragment |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Facebook![ Screenshot ](/src/assets/fb.png) | Instagram![ Screenshot ](/src/assets/ig.png) | Twitter![ Screenshot ](/src/assets/tw.png) EndFragment |
+| ------------------------------------------- | -------------------------------------------- | ------------------------------------------------------ |
 
 
 -**Project setup**
