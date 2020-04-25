@@ -12,7 +12,13 @@ You can always refer to the original project here :
 
 ## How does it work :
 
-![Screenshot](/src/assets/app.png)
+![Screenshot](/src/assets/avatar.gif)
+
+## Different platforms :
+
+| StartFragment![ Screenshot ](/src/assets/fb.png) EndFragment | StartFragment![ Screenshot ](/src/assets/ig.png) EndFragment | StartFragment![ Screenshot ](/src/assets/tw.png) EndFragment |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+
 
 -**Project setup**
 
