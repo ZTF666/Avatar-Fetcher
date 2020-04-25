@@ -74,11 +74,21 @@ pnpm run build
 ## Support
 
 ```
-
+Any help improving this spa , is welcomed :heart:
 ```
 
-## License
+## Contact
+
+```
+you can contact me at ZTF666@protonmail.ch or via my portfolio
+```
+
+- **:biohazard:** [Portfolio](https://ztfportfolio.web.app/) **:biohazard:**
 
 ## License
 
--**Avatar | アバター** released under the [MIT](LICENSE) License.<br>
+-**Avatar | アバター** released under the [MIT](LICENSE) License.
+
+```
+Made with 💘 by a 👨‍💻 on a 💻 | 2020 | ZTF666
+```
