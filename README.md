@@ -12,6 +12,8 @@ You can always refer to the original project here :
 
 ## How does it work :
 
+![Screenshot](/src/assets/app.png)
+
 -**Project setup**
 
 ```
