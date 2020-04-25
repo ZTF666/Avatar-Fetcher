@@ -26,7 +26,7 @@ You can always refer to the original project here :
 In case of a not valid username on any platform , the image displayed is :
 ```
 
-![Screenshot](/src/assets/error.png)
+| Error![ Screenshot ](/src/assets/error.png) |------------------------------------------- |
 
 -**Project setup**
 
