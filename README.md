@@ -26,7 +26,10 @@ You can always refer to the original project here :
 In case of a not valid username on any platform , the image displayed is :
 ```
 
-![ Screenshot ](/src/assets/error.png)
+<div align="center">
+<img src="/src/assets/error.png" >
+
+</div>
 
 ```
 This can be changed ! just refer to the documentation 📚 here :
