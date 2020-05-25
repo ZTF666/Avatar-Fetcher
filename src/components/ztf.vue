@@ -34,6 +34,8 @@
               <v-radio label="Facebook" value="fb" color="primary"></v-radio>
               <v-radio label="Instagram" value="ig" color="pink"></v-radio>
               <v-radio label="Twitter" value="tw" color="info"></v-radio>
+              <v-radio label="Youtube" value="yt" color="info"></v-radio>
+              <v-radio label="Telegram" value="tg" color="info"></v-radio>
             </v-radio-group>
           </v-container>
           <!-- end radio -->
@@ -117,6 +119,21 @@ export default {
             this.downloadlink =
               "https://unavatar.now.sh/facebook/" + this.username;
             this.myurl = "https://unavatar.now.sh/facebook/" + this.username;
+            this.username = null;
+          }
+        }
+        else if (this.row == "yt") {
+          let apiUrl = "https://unavatar.now.sh/youtube/";
+          apiUrl = apiUrl + this.username + "?json";
+          await fetch(apiUrl).then(
+            (response) => (this.status = response.status)
+          );
+          console.log(this.status);
+          if (this.status == 200) {
+            this.avatar = "https://unavatar.now.sh/youtube/" + this.username;
+            this.downloadlink =
+              "https://unavatar.now.sh/facebook/" + this.username;
+            this.myurl = "https://unavatar.now.sh/youtube/" + this.username;
             this.username = null;
           }
         } else {
