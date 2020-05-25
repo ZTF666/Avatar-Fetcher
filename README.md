@@ -93,7 +93,7 @@ you can contact me at ZTF666@protonmail.ch or via my portfolio
 
 <table>
   <tr>
-    <td align="center"><a href="https://ztfportfolio.web.app/"><img src="https://avatars1.githubusercontent.com/u/32502988?v=4" width="100px;" alt=""/><br /><sub><b>ZTF666</b></sub></a></td>
+    <td align="center"><a href="https://ztfportfolio.web.app/" target='_blank'><img src="https://avatars1.githubusercontent.com/u/32502988?v=4" width="100px;" alt=""/><br /><sub><b>ZTF666</b></sub></a></td>
   </tr>
 </table>
 
