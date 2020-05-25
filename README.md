@@ -18,8 +18,8 @@ You can always refer to the original project here :
 
 ## Different platforms :
 
-| Facebook![ Screenshot ](/src/assets/fb.png) | Instagram![ Screenshot ](/src/assets/ig.png) | Twitter![ Screenshot ](/src/assets/tw.png) | Error![ Screenshot ](/src/assets/error.png) |
-| ------------------------------------------- | -------------------------------------------- | ------------------------------------------ | ------------------------------------------- |
+| Facebook![ Screenshot ](/src/assets/fb.png) | Instagram![ Screenshot ](/src/assets/ig.png) | Twitter![ Screenshot ](/src/assets/tw.png) | Error![ Screenshot ](/src/assets/error.png) | Youtube![ Screenshot ](/src/assets/yt.png) | Telegram![ Screenshot ](/src/assets/tg.png) 
+| ------------------------------------------- | -------------------------------------------- | ------------------------------------------ | ------------------------------------------- |------------------------------------------- |------------------------------------------- |
 
 
 ## User not found :
