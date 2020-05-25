@@ -132,8 +132,23 @@ export default {
           if (this.status == 200) {
             this.avatar = "https://unavatar.now.sh/youtube/" + this.username;
             this.downloadlink =
-              "https://unavatar.now.sh/facebook/" + this.username;
+              "https://unavatar.now.sh/youtube/" + this.username;
             this.myurl = "https://unavatar.now.sh/youtube/" + this.username;
+            this.username = null;
+          }
+        }
+        else if (this.row == "tg") {
+          let apiUrl = "https://unavatar.now.sh/telegram/";
+          apiUrl = apiUrl + this.username + "?json";
+          await fetch(apiUrl).then(
+            (response) => (this.status = response.status)
+          );
+          console.log(this.status);
+          if (this.status == 200) {
+            this.avatar = "https://unavatar.now.sh/telegram/" + this.username;
+            this.downloadlink =
+              "https://unavatar.now.sh/telegram/" + this.username;
+            this.myurl = "https://unavatar.now.sh/telegram/" + this.username;
             this.username = null;
           }
         } else {
