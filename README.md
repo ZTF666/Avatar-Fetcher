@@ -89,7 +89,18 @@ Any help improving this spa , is welcomed ❤️
 you can contact me at ZTF666@protonmail.ch or via my portfolio
 ```
 
-- **:biohazard:** [Portfolio](https://ztfportfolio.web.app/) **:biohazard:**
+- 👾 [Portfolio](https://ztfportfolio.web.app/) 👾
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center"><a href="https://ztfportfolio.web.app/"><img src="https://avatars1.githubusercontent.com/u/32502988?v=4" width="100px;" alt=""/><br /><sub><b>ZTF666</b></sub></a>💻 </td>
+  </tr>
+</table>
+
+</div>
+
 
 ## License
 
