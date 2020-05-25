@@ -89,7 +89,6 @@ Any help improving this spa , is welcomed ❤️
 you can contact me at ZTF666@protonmail.ch or via my portfolio
 ```
 
-- 👾 [Portfolio](https://ztfportfolio.web.app/) 👾
 <div align="center">
 
 <table>
