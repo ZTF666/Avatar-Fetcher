@@ -26,6 +26,7 @@
               label="User ID"
               outline
               v-model="username"
+              aria-autocomplete="false"
             ></v-text-field>
           </v-flex>
           <!-- radio -->
