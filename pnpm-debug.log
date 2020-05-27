@@ -1,0 +1,21 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "message": {
+      "errno": 3221225786,
+      "code": "ELIFECYCLE",
+      "pkgid": "avatarfetcher@0.1.0",
+      "stage": "serve",
+      "script": "vue-cli-service serve",
+      "pkgname": "avatarfetcher"
+    },
+    "err": {
+      "name": "Error",
+      "message": "avatarfetcher@0.1.0 serve: `vue-cli-service serve`\nExit status 3221225786",
+      "code": "ELIFECYCLE",
+      "stack": "Error: avatarfetcher@0.1.0 serve: `vue-cli-service serve`\nExit status 3221225786\n    at EventEmitter.<anonymous> (C:\\Users\\ZTF\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npmjs.org\\pnpm\\4.12.5\\node_modules\\pnpm\\lib\\node_modules\\@zkochan\\npm-lifecycle\\index.js:302:16)\n    at EventEmitter.emit (events.js:210:5)\n    at ChildProcess.<anonymous> (C:\\Users\\ZTF\\AppData\\Roaming\\npm\\pnpm-global\\3\\node_modules\\.pnpm\\registry.npmjs.org\\pnpm\\4.12.5\\node_modules\\pnpm\\lib\\node_modules\\@zkochan\\npm-lifecycle\\lib\\spawn.js:55:14)\n    at ChildProcess.emit (events.js:210:5)\n    at maybeClose (internal/child_process.js:1021:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:283:5)"
+    }
+  }
+}

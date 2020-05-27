@@ -21,7 +21,7 @@
         target="_blank"
         text
       >
-        <span class="mr-2">Github repo</span>
+        <span class="mr-2">Github Repo</span>
         <v-icon>mdi-github</v-icon>
       </v-btn>
     </v-app-bar>
