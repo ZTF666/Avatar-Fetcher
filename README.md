@@ -105,5 +105,5 @@ you can contact me at ZTF666@protonmail.ch or via my portfolio
 **Avatar | アバター** released under the [MIT](LICENSE) License.
 
 ```
-Made with 💘 by a 👨‍💻 on a 💻 | 2020 | ZTF666
+Made with 💘 by a 👨‍💻 on a 💻 | 2020 | ZTF666 - N.EA
 ```
