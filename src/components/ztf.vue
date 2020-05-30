@@ -94,6 +94,7 @@ export default {
   methods: {
     async getAvatarIg() {
       if (this.username != null && this.row != null) {
+        // Instagram
         if (this.row == "ig") {
           let apiUrl = "https://unavatar.now.sh/instagram/";
           apiUrl = apiUrl + this.username + "?json";
@@ -108,7 +109,9 @@ export default {
             this.myurl = "https://unavatar.now.sh/instagram/" + this.username;
             this.username = null;
           }
-        } else if (this.row == "fb") {
+        } 
+        // Facebook
+        else if (this.row == "fb") {
           let apiUrl = "https://unavatar.now.sh/facebook/";
           apiUrl = apiUrl + this.username + "?json";
           await fetch(apiUrl).then(
@@ -123,6 +126,7 @@ export default {
             this.username = null;
           }
         }
+        // Youtube
         else if (this.row == "yt") {
           let apiUrl = "https://unavatar.now.sh/youtube/";
           apiUrl = apiUrl + this.username + "?json";
@@ -138,6 +142,7 @@ export default {
             this.username = null;
           }
         }
+        // Telegram
         else if (this.row == "tg") {
           let apiUrl = "https://unavatar.now.sh/telegram/";
           apiUrl = apiUrl + this.username + "?json";
@@ -152,7 +157,9 @@ export default {
             this.myurl = "https://unavatar.now.sh/telegram/" + this.username;
             this.username = null;
           }
-        } else {
+        } 
+        // Twitter
+        else {
           let apiUrl = "https://unavatar.now.sh/twitter/";
           apiUrl = apiUrl + this.username + "?json";
           await fetch(apiUrl).then(
