@@ -10,6 +10,15 @@ You can always refer to the original project here :
 
 [Unavatar](https://github.com/Kikobeats/unavatar)
 
+This was made using :
+
+<div align="center">
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fseeklogo.com%2Fimages%2FV%2Fvuetify-logo-3BCF73C928-seeklogo.com.png&f=1&nofb=1"  width='60' height='60'>
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fcjrt3NilcNw%2Fmaxresdefault.jpg&f=1&nofb=1"  width='60' height='60'>
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvuejs.org%2Fimages%2Flogo.png&f=1&nofb=1"  width='60' height='60'>
+
+</div>
+
 ## How does it work :
 
 <div align="center">
@@ -18,8 +27,8 @@ You can always refer to the original project here :
 
 ## Different platforms :
 
-| Facebook![ Screenshot ](/src/assets/fb.png) | Instagram![ Screenshot ](/src/assets/ig.png) | Twitter![ Screenshot ](/src/assets/tw.png) | Error![ Screenshot ](/src/assets/error.png) | Youtube![ Screenshot ](/src/assets/yt.png) | Telegram![ Screenshot ](/src/assets/tg.png) 
-| ------------------------------------------- | -------------------------------------------- | ------------------------------------------ | ------------------------------------------- |------------------------------------------- |------------------------------------------- |
+| Facebook![ Screenshot ](/src/assets/fb.png) | Instagram![ Screenshot ](/src/assets/ig.png) | Twitter![ Screenshot ](/src/assets/tw.png) | Error![ Screenshot ](/src/assets/error.png) | Youtube![ Screenshot ](/src/assets/yt.png) | Telegram![ Screenshot ](/src/assets/tg.png) |
+| ------------------------------------------- | -------------------------------------------- | ------------------------------------------ | ------------------------------------------- | ------------------------------------------ | ------------------------------------------- |
 
 
 ## User not found :
@@ -98,7 +107,6 @@ you can contact me at ZTF666@protonmail.ch or via my portfolio
 </table>
 
 </div>
-
 
 ## License
 
