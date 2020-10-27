@@ -69,6 +69,7 @@
 </template>
 
 <script>
+import axios from 'axios'
 export default {
   name: "ztf",
 
@@ -93,22 +94,31 @@ export default {
   },
   methods: {
     async getAvatarIg() {
+    
       if (this.username != null && this.row != null) {
         // Instagram
         if (this.row == "ig") {
-          let apiUrl = "https://unavatar.now.sh/instagram/";
-          apiUrl = apiUrl + this.username + "?json";
-          await fetch(apiUrl).then(
-            (response) => (this.status = response.status)
-          );
-          console.log(this.status);
-          if (this.status == 200) {
-            this.avatar = "https://unavatar.now.sh/instagram/" + this.username;
-            this.downloadlink =
-              "https://unavatar.now.sh/instagram/" + this.username;
-            this.myurl = "https://unavatar.now.sh/instagram/" + this.username;
-            this.username = null;
-          }
+          let apiUrl = "https://www.instagram.com/";
+          // apiUrl = apiUrl + this.username + "/?__a=1";
+          try {
+       
+          let response = await axios.get(apiUrl+ this.username + "/?__a=1")
+          let FormattedData = JSON.parse(JSON.stringify(response))
+          console.log(FormattedData.data.graphql.user)
+          this.avatar = FormattedData.data.graphql.user.profile_pic_url_hd
+          this.downloadlink = FormattedData.data.graphql.user.profile_pic_url_hd
+          this.myurl = FormattedData.data.graphql.user.profile_pic_url_hd
+          this.username = null;
+          // this.Username = FormattedData.data.graphql.user.username
+          // this.Biography = FormattedData.data.graphql.user.biography
+          // this.Follows = FormattedData.data.graphql.user.edge_follow.count
+          // this.FollowedBy =
+          //   FormattedData.data.graphql.user.edge_followed_by.count
+        
+      } catch (e) {
+        alert("This user doesn't exist, please check the spelling")
+      }
+
         } 
         // Facebook
         else if (this.row == "fb") {

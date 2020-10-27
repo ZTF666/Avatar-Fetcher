@@ -1,6 +1,11 @@
 # Avatar | アバター
 
 Is a webapp that uses the multiple end points provided by [Kiko Beats](https://github.com/Kikobeats) to fetch and display a given user's profile picture .
+The instagram profile picture is fetched using a simple trick demosntrated here on my other project :
+
+[Avatar-Lite](https://github.com/ZTF666/Avatar-Fetcher-Lite)
+
+feel free to check it out
 
 This was made just to put a UI on the already existing project.
 Since i've used these links quit a lot lately , i wanted to make it more accessible
@@ -47,17 +52,10 @@ This can be changed ! just refer to the documentation 📚 here :
 
 👉 [Unavatar](https://unavatar.now.sh/) 👈
 
-## False negative for IG ids :
+## IG profiles pictures are fetched using this methode :
 
 ```
-I noticed that sometimes , the username is correct but still returns no picture .
-The fix for instagram is easy !
-On the IG app , open the profile you want ,
-Click on the three dots on the top right of the screen
-Then click on ' Copy Profile URL '
-Paste it in the search field and voila!
-
-The id looks something like : USERNAME?igshid=XXXXXXXXXXXXX
+www.instagram.com/USER-NAME/?__a=1
 ```
 
 ## False negative for Facebook :
